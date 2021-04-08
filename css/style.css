@@ -25,9 +25,15 @@ p {
 }
 section {
   display: flex;
+  flex-direction: column;
   height: 100vh;
   align-items: center;
   padding: 100px;
+  margin-top: 60px;
+}
+section.home {
+  flex-direction: row;
+  margin-top: 0;
 }
 /* BUTTON */
 .btn {
@@ -141,6 +147,30 @@ section {
   right: 0;
   height: 110%;
 }
+/* Skills */
+
+.skills {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /*OR 1fr 1fr 1fr */
+  gap: 40px;
+  text-align: center;
+}
+.skills .skill {
+  padding: 30px;
+}
+.skills .skill:hover {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+.skills .skill h2 {
+  font-size: 24;
+  font-weight: 500;
+  margin-top: 20px;
+  color: #1b206e;
+}
+.skills .skill .icon img {
+  max-width: 100px;
+}
 
 @media (max-width: 1068px) {
   .home-img {
@@ -157,5 +187,14 @@ section {
   }
   .navigation ul li a {
     font-size: 2rem;
+  }
+  .skills {
+    grid-template-columns: repeat(2, 1fr); /*OR 1fr 1fr  */
+  }
+}
+
+@media (max-width: 768px) {
+  .skills {
+    grid-template-columns: 1fr;
   }
 }
