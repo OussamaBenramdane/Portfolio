@@ -162,6 +162,7 @@ section.home {
 }
 .skills .skill:hover {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: 0.4s;
 }
 .skills .skill h2 {
   font-size: 24;
@@ -184,8 +185,8 @@ section.home {
 
 .portfolio .item {
   position: relative;
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   margin: 5px;
   margin-bottom: 200px;
 }
@@ -206,7 +207,7 @@ section.home {
   justify-content: center;
   align-items: center;
   opacity: 0;
-  transition: 0.5s;
+  transition: 1s;
 }
 
 .portfolio .item:hover .action {
