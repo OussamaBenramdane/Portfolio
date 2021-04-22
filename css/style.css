@@ -187,6 +187,7 @@ section.home {
   width: 300px;
   height: 300px;
   margin: 5px;
+  margin-bottom: 200px;
 }
 
 .portfolio .item img {
@@ -217,6 +218,17 @@ section.home {
   text-decoration: none;
   border: 1px solid white;
   padding: 5px 15px;
+  margin-left: 10px;
+}
+.portfolio .item .tech {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  border-color: #111;
+}
+.portfolio .item .tech i {
+  display: inline-block;
+  padding-right: 10px;
 }
 
 /*CONTACT*/
@@ -301,6 +313,8 @@ section.home {
 .contact-info .info-box .details a {
   color: #111;
 }
+
+/*Modern Card*/
 @media (max-width: 1068px) {
   .home-img {
     display: none;
