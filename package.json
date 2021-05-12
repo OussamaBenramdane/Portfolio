@@ -4,7 +4,7 @@
   "description": "> Simple HTML/CSS portfolio website > ![Creative Agency](/images/screenshot.png 'Creative Agency')",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
