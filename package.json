@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "> Simple HTML/CSS portfolio website > ![Creative Agency](/images/screenshot.png 'Creative Agency')",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OussamaBenramdane/Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OussamaBenramdane/Portfolio/issues"
+  },
+  "homepage": "https://github.com/OussamaBenramdane/Portfolio#readme",
+  "dependencies": {
+    "emailjs-com": "^2.6.4"
+  }
+}

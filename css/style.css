@@ -194,6 +194,7 @@ section.home {
 .portfolio .item img {
   width: 100%;
   height: 100%;
+  border-radius: 10px;
 }
 
 .portfolio .item .action {
